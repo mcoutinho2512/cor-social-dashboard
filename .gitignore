@@ -1,0 +1,44 @@
+# Backend
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.env
+backend/staticfiles/
+backend/media/
+backend/db.sqlite3
+backend/*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.vite
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Credentials
+*.json
+*.p8
+service-account*.json
